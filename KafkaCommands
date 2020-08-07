@@ -1,0 +1,9 @@
+Command for earliest offset
+
+~/kafka/bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list ec2-34-229-226-67.compute-1.amazonaws.com:9092 --time -1 --topic PSAP-EV7Z7-P6YWB
+
+Command for latest offst
+
+~/kafka/bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list ec2-34-229-226-67.compute-1.amazonaws.com:9092 --time -2 --topic PSAP-EV7Z7-P6YWB
+
+
